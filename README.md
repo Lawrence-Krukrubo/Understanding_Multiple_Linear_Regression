@@ -24,7 +24,7 @@ So to define our feature matrix _X_, we need to select ideal features from the d
 
 <h4>1. Exploring Real-World Data</h4>
 
-We shall use the Fuel consumption rating data set for car sales in Canada. See [link to download](https://open.canada.ca/data/en/dataset/98f1a129-f628-4ce4-b24d-6f16bf24dd64) from open-canada website. If you want the raw CSV file, you can read it straight to pandas from this alternate [link](https://raw.githubusercontent.com/Blackman9t/Machine_Learning/master/Original_2000_2014_Fuel_Consumption_Ratings.csv).
+We shall use the Fuel consumption rating data set for car sales in Canada. See **[link to download]**(https://open.canada.ca/data/en/dataset/98f1a129-f628-4ce4-b24d-6f16bf24dd64) from open-canada website. If you want the raw CSV file, you can read it straight to pandas from this alternate **[link]**(https://raw.githubusercontent.com/Blackman9t/Machine_Learning/master/Original_2000_2014_Fuel_Consumption_Ratings.csv).
 
 **Tasks Include:**
 
@@ -85,7 +85,7 @@ To follow along with these exercises, you need to install and import the followi
 
 <h4>5. Blog-Post:</h4>
 
-Kindly see my article published in TowardsAI publication in Medium that goes through this entire project. I explain every code cell and intuition. For example the fact that LSE can only be done in a Feature matrix where the independent variables are linearly-dependent.<br>See link [here](https://medium.com/towards-artificial-intelligence/understanding-multiple-linear-regression-1b4a5b939f5a)
+Kindly see my article published in TowardsAI publication in Medium that goes through this entire project. I explain every code cell and intuition. For example the fact that LSE can only be done in a Feature matrix where the independent variables are linearly-dependent.<br>See link **[here]**(https://medium.com/towards-artificial-intelligence/understanding-multiple-linear-regression-1b4a5b939f5a)
 
 <h4>6. Summary:</h4>
 
@@ -94,6 +94,10 @@ I built an MLR Model from scratch by first determining correlated variables, det
 
 Then I trained the model with the training data set using matrix multiplication in line with the **Least-Squares-Estimate** formula and used the model to make predictions on the test data set that is not yet known to the model(out of sample data set).
 Finally, I evaluated the model using MSE, RMSE and r2_score and compared it to a model from the Sklearn library.
+
+<h4>7. Code Notebook:</h4>
+
+See **[link here]**(https://github.com/Lawrence-Krukrubo/Understanding_Multiple_Linear_Regression/blob/master/coefficients_of_multiple_linear_regression.ipynb) to the Notebook, complete with all codes and plots. Or just scroll up and look in the Repo directory.
 
 <h4>7. License:</h4>
 
