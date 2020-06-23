@@ -67,7 +67,7 @@ We compute the Least Squares Estimate method **(LSE)**
 
 After computing the ideal coefficients of the model via the LSE above, the next thing is to simply substitute the coefficints into the Multiple Linear regression Model equation:-  <b><em>Y_hat = B0 + b1x1 + b2x2 + b3x3 ... + bnxn</em></b>.
 
-After the substitution, we make predictions on the test set and evaluate our predictions using the MSE, MAE, RMSE or any relevant metrics.
+After the substitution, we make predictions on the test set and evaluate our predictions using the **MSE**, **MAE**, **RMSE** or any relevant metrics.
 
 <h4>4. Dependencies:</h4>
 
@@ -87,7 +87,7 @@ To follow along with these exercises, you need to install and import the followi
 
 Kindly see my article published in TowardsAI publication in Medium that goes through this entire project. I explain every code cell and intuition. For example the fact that LSE can only be done in a Feature matrix where the independent variables are linearly-dependent.<br>See link [here](https://medium.com/towards-artificial-intelligence/understanding-multiple-linear-regression-1b4a5b939f5a)
 
-<h4>5. Summary:</h4>
+<h4>6. Summary:</h4>
 
 This project demonstrates how multiple linear regression(MLR) works step by step using Matrix Algebra.
 I built an MLR Model from scratch by first determining correlated variables, determining multicollinearity and selecting 3 moderately linear-independent variables.
@@ -95,13 +95,9 @@ I built an MLR Model from scratch by first determining correlated variables, det
 Then I trained the model with the training data set using matrix multiplication in line with the **Least-Squares-Estimate** formula and used the model to make predictions on the test data set that is not yet known to the model(out of sample data set).
 Finally, I evaluated the model using MSE, RMSE and r2_score and compared it to a model from the Sklearn library.
 
-<h4>6. License:</h4>
+<h4>7. License:</h4>
 
 Every analysis, file or document in the project is covered by the **MIT** license attached in the Repo.
-
-
-
-
 
 
 
