@@ -99,7 +99,7 @@ Finally, I evaluated the model using MSE, RMSE and r2_score and compared it to a
 
 See [link here](https://github.com/Lawrence-Krukrubo/Understanding_Multiple_Linear_Regression/blob/master/coefficients_of_multiple_linear_regression.ipynb) to the Notebook, complete with all codes and plots. Or just scroll up and look in the Repo directory.
 
-<h4>7. License:</h4>
+<h4>8. License:</h4>
 
 Every analysis, file or document in the project is covered by the **MIT** license attached in the Repo.
 
