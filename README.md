@@ -24,7 +24,7 @@ So to define our feature matrix _X_, we need to select ideal features from the d
 
 <h4>1. Exploring Real-World Data</h4>
 
-We shall use the Fuel consumption rating data set for car sales in Canada. See [link to download](https://open.canada.ca/data/en/dataset/98f1a129-f628-4ce4-b24d-6f16bf24dd64).
+We shall use the Fuel consumption rating data set for car sales in Canada. See [link to download](https://open.canada.ca/data/en/dataset/98f1a129-f628-4ce4-b24d-6f16bf24dd64) from open-canada website. If you want the raw CSV file, you can read it straight to pandas from this alternate [link](https://raw.githubusercontent.com/Blackman9t/Machine_Learning/master/Original_2000_2014_Fuel_Consumption_Ratings.csv).
 
 **Tasks Include:**
 
